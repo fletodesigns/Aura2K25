@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artopia</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/eb549d5918.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-bar">
+            <!-- <img src="/img/logo.png" alt="logo" class="logo"> -->
+            <h1 class="logo-text">Inte<span>lecto</span></h1>
+        </div>
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/index.html"><i class='bx bx-home-alt-2'></i>Home</a></li>
+                <li><a href="/gallery/gallery.html"><i class='bx bx-images' ></i>Gallery</a></li>
+                <li><a href="/profile/profile.html"><i class='bx bx-user' ></i>Profile</a></li>
+                <li><a href="/Result/result.html"><i class='bx bx-minus-back'></i></i>Result</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="top">
+            <h1>Search Contestent</h1>
+            <div class="input-container">
+                <input type="text" id="ches-no-input" placeholder="Enter Ches no">
+                <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </div>
+    <div id="result-page">
+        <div class="top-bar">
+            <div class="name-bar">
+                <h2 id="ches-no-text"></h2>
+                <h2 id="con-name"></h2>
+            </div>
+            <div class="back-bar">
+                <h2 class="total-mark-text">Total: <span id="total-score"></span></h2>
+                <button id="back-btn" onclick="closeResultPage()">&Cross;</button>
+            </div>
+        </div>
+        <div class="marks">
+            <div class="stage-programs">
+                <h1>Stage<br><span>Programs</span></h1>
+                <div id="programs-box">
+                    <div class="stage-program-list">
+                        <div id="program-1-list">
+                            <h3 id="stage-program-1-name">none</h3>
+                            <h3 id="stage-program-1-rank">none</h3>
+                            <h3 id="stage-program-1-score">0</h3>
+                        </div>
+                        <div id="program-2-list">
+                            <h3 id="stage-program-2-name">none</h3>
+                            <h3 id="stage-program-2-rank">none</h3>
+                            <h3 id="stage-program-2-score">0</h3>
+                        </div>
+                        <div id="program-3-list">
+                            <h3 id="stage-program-3-name">none</h3>
+                            <h3 id="stage-program-3-rank">none</h3>
+                            <h3 id="stage-program-3-score">0</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stage-programs">
+                <h1>Non<br> Stage<br><span>Programs</span></h1>
+                <div id="programs-box">
+                    <div class="stage-program-list">
+                        <div id="program-1-list">
+                            <h3 id="nonstage-program-1-name">none</h3>
+                            <h3 id="nonstage-program-1-rank">none</h3>
+                            <h3 id="nonstage-program-1-score">0</h3>
+                        </div>
+                        <div id="prononstage-gram-2-list">
+                            <h3 id="nonstage-program-2-name">none</h3>
+                            <h3 id="nonstage-program-2-rank">none</h3>
+                            <h3 id="nonstage-program-2-score">0</h3>
+                        </div>
+                        <div id="prononstage-gram-3-list">
+                            <h3 id="nonstage-program-3-name">none</h3>
+                            <h3 id="nonstage-program-3-rank">none</h3>
+                            <h3 id="nonstage-program-3-score">0</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
