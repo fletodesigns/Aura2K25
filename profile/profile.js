@@ -7,38 +7,10 @@ const resultPage = document.getElementById("result-page");
 const totalScoreText = document.getElementById("total-score");
 const navbar = document.querySelector("header");
 
-
 const backBtn = document.getElementById("back-btn");
 
-// calling stage program names
-const stageProgram1Name = document.getElementById("stage-program-1-name");
-const stageProgram2Name = document.getElementById("stage-program-2-name");
-const stageProgram3Name = document.getElementById("stage-program-3-name");
-
-// calling stage program ranks
-const stageProgram1Rank = document.getElementById("stage-program-1-rank");
-const stageProgram2Rank = document.getElementById("stage-program-2-rank");
-const stageProgram3Rank = document.getElementById("stage-program-3-rank");
-
-// calling stage program scores
-const stageProgram1Score = document.getElementById("stage-program-1-score");
-const stageProgram2Score = document.getElementById("stage-program-2-score");
-const stageProgram3Score = document.getElementById("stage-program-3-score");
-
-// calling non-stage program names
-const noneStageProgram1Name = document.getElementById("nonstage-program-1-name");
-const noneStageProgram2Name = document.getElementById("nonstage-program-2-name");
-const noneStageProgram3Name = document.getElementById("nonstage-program-3-name");
-
-// calling non-stage program ranks
-const noneStageProgram1Rank = document.getElementById("nonstage-program-1-rank");
-const noneStageProgram2Rank = document.getElementById("nonstage-program-2-rank");
-const noneStageProgram3Rank = document.getElementById("nonstage-program-3-rank");
-
-// calling non-stage program scores
-const noneStageProgram1Score = document.getElementById("nonstage-program-1-score");
-const noneStageProgram2Score = document.getElementById("nonstage-program-2-score");
-const noneStageProgram3Score = document.getElementById("nonstage-program-3-score");
+const stageProgramList = document.getElementById("stageProgramList");
+const nonStageProgramList = document.getElementById("nonStageProgramList");
 
 let students = new Map();
 
@@ -745,14 +717,12 @@ students.set(  315, {
     chesNo:   315,
     team: "tugela",
     stagePrograms: [
-        { name: "not published", rank: "non", score: 0 },
-        { name: "non", rank: "non", score: 0 },
-        { name: "non", rank: "non", score: 0 }
+        { name: "Science Master", rank: "1st A", score: 8 }
+
     ],
     nonStagePrograms: [
-        { name: "not published", rank: "non", score: 0 },
-        { name: "non", rank: "non", score: 0 },
-        { name: "non", rank: "non", score: 0 }
+        { name: "Water painting", rank: "1st A", score: 8 },
+        { name: "Pencil drawing", rank: "1st A", score: 8 },
     ]
 });
 students.set(  316, {
@@ -771,70 +741,81 @@ students.set(  316, {
     ]
 });
 
-
 // ==========================================================================================
 
 searchBtn.addEventListener('click', showResult);
 
-
 function showResult() {
     let chesNo = parseInt(chesNoInput.value);
     let student = students.get(chesNo);
-    
+
     if (students.has(chesNo)) {
-        let student = students.get(chesNo);
-        
         // Calculate the total score
         let totalScore = student.stagePrograms.reduce((sum, program) => sum + program.score, 0) +
         student.nonStagePrograms.reduce((sum, program) => sum + program.score, 0);
-        
+
         // show ches no
         chesNoText.innerHTML = student.chesNo;
-        
+
         // show score
         totalScoreText.innerHTML = totalScore;
-        
+
         // show name
         conName.innerHTML = student.name;
-        
-        // show stage program details
-        stageProgram1Name.innerHTML = student.stagePrograms[0].name;
-        stageProgram1Rank.innerHTML = student.stagePrograms[0].rank;
-        stageProgram1Score.innerHTML = student.stagePrograms[0].score;
-        
-        stageProgram2Name.innerHTML = student.stagePrograms[1].name;
-        stageProgram2Rank.innerHTML = student.stagePrograms[1].rank;
-        stageProgram2Score.innerHTML = student.stagePrograms[1].score;
-        
-        stageProgram3Name.innerHTML = student.stagePrograms[2].name;
-        stageProgram3Rank.innerHTML = student.stagePrograms[2].rank;
-        stageProgram3Score.innerHTML = student.stagePrograms[2].score;
-        
-        // show non-stage program details
-        noneStageProgram1Name.innerHTML = student.nonStagePrograms[0].name;
-        noneStageProgram1Rank.innerHTML = student.nonStagePrograms[0].rank;
-        noneStageProgram1Score.innerHTML = student.nonStagePrograms[0].score;
-        
-        noneStageProgram2Name.innerHTML = student.nonStagePrograms[1].name;
-        noneStageProgram2Rank.innerHTML = student.nonStagePrograms[1].rank;
-        noneStageProgram2Score.innerHTML = student.nonStagePrograms[1].score;
-        
-        noneStageProgram3Name.innerHTML = student.nonStagePrograms[2].name;
-        noneStageProgram3Rank.innerHTML = student.nonStagePrograms[2].rank;
-        noneStageProgram3Score.innerHTML = student.nonStagePrograms[2].score;
-        
+
+        // Clear previous program lists
+        stageProgramList.innerHTML = "";
+        nonStageProgramList.innerHTML = "";
+
+        // Dynamically create stage program divs
+        student.stagePrograms.forEach((program) => {
+            const programDiv = document.createElement('div');
+            const nameH3 = document.createElement('h3');
+            const rankH3 = document.createElement('h3');
+            const scoreH3 = document.createElement('h3');
+
+            nameH3.innerHTML = `${program.name}`;
+            rankH3.innerHTML = `${program.rank}`;
+            scoreH3.innerHTML = `${program.score}`;
+
+            // Append the h3 elements to the program div
+            programDiv.appendChild(nameH3);
+            programDiv.appendChild(rankH3);
+            programDiv.appendChild(scoreH3);
+
+            // Append the program div to the stage program list
+            stageProgramList.appendChild(programDiv);
+        });
+
+        // Dynamically create non-stage program divs
+        student.nonStagePrograms.forEach((program) => {
+            const programDiv = document.createElement('div');
+            const nameH3 = document.createElement('h3');
+            const rankH3 = document.createElement('h3');
+            const scoreH3 = document.createElement('h3');
+
+            nameH3.innerHTML = `${program.name}`;
+            rankH3.innerHTML = `${program.rank}`;
+            scoreH3.innerHTML = `${program.score}`;
+
+            // Append the h3 elements to the program div
+            programDiv.appendChild(nameH3);
+            programDiv.appendChild(rankH3);
+            programDiv.appendChild(scoreH3);
+
+            // Append the program div to the non-stage program list
+            nonStageProgramList.appendChild(programDiv);
+        });
+
         chesNoInput.value = "";
-        
+
         // show team name
         let teamName = student.team;
         const root = document.documentElement;
-        switch(teamName){
-            // case "victoria":
-            //     root.style.setProperty('--team-color', '#ffff70');
-            //     break;
+        switch (teamName) {
             case "victoria":
                 root.style.setProperty('--team-color', '#f0d040');
-            break;
+                break;
             case "nayagra":
                 root.style.setProperty('--team-color', '#ebebeb');
                 break;
@@ -842,15 +823,13 @@ function showResult() {
                 root.style.setProperty('--team-color', '#16a9ff');
                 break;
         };
-            
-            
+
         openResultPage();
     } else {
         alert("Student not found");
-    };
-                
+    }
 }
-    
+
 function openResultPage() {
     resultPage.style.display = "block";
     navbar.style.display = "none";
@@ -860,14 +839,13 @@ function closeResultPage() {
     resultPage.style.display = "none";
     navbar.style.display = "flex";
 }
-                
+
 chesNoInput.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
       event.preventDefault();
       searchBtn.click();
     }
-  });
-
+});
 
 const burger = document.querySelector('.burger');
 const navLinks = document.querySelector('.nav-links');
@@ -875,4 +853,3 @@ burger.addEventListener('click', () => {
     navLinks.classList.toggle('nav-active');
     burger.classList.toggle('toggle');
 });
-
