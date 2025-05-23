@@ -1,0 +1,282 @@
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.header {
+    background: transparent;
+    color: var(--bg-color);
+}
+
+.nav-links a {
+    color: var(--bg-color);
+}
+
+/* main section  */
+
+section {
+    padding: 6rem 8rem;
+}
+
+#hero{
+    height: 100vh;
+    background: url(/img/bg3.png); 
+    background-position: center;
+    background-size: cover;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 15%;
+}
+
+#hero h1{
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 70px;
+    color: var(--bg-color);
+}
+
+#hero h1 span{
+    color:   var(--main-color);
+    text-shadow: 0 0 10px #0000004d;
+}
+
+#hero p{
+    width: 70%;
+    font-size: 20px;
+    color: var(--bg-color);
+}
+
+#updation {
+    padding: 1rem 5rem;
+}
+
+#updation img{
+    width: 150px;
+}
+
+#details {
+    background: url(/img/details-bg.png);
+    background-size: contain;
+    width: 100%;
+    height: 20cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 5rem;
+}
+
+#details header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#details header img{
+    width: 150px;
+}
+
+#details img{
+    width: 70rem;
+}
+
+#teams{
+    padding: 0;
+}
+
+#teams img{
+    width: 100%;
+}
+
+.carousel {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+footer#contacts {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 7rem;
+    background: var(--main-color);
+    gap: 50px;
+}
+
+footer#contacts .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+footer#contacts a{
+    color: #fff;
+}
+
+footer#contacts a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+
+footer#contacts .contact .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer#contacts .contact .details p{
+    width: 500px;
+}
+
+footer#contacts .contact .numbers {
+    padding-left: 10rem;
+    /* text-align: right; */
+}
+
+footer#contacts .social-media{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer#contacts .social-media a{
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+footer#contacts .social-media a:hover{
+    text-decoration: none;
+    background: #fff;
+    color: var(--main-color);
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .logo-bar {
+        margin-left: 1rem;
+    }
+    
+    .logo-text {
+        font-size: 2rem;
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        left: 0;
+        background-color: #333;
+        text-align: center;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+        z-index: 1;
+    }
+    
+    .nav-links li {
+        margin: 20px 0;
+    }
+    
+    .nav-links.nav-active {
+        display: flex;
+    }
+    
+    .burger {
+        display: flex;
+        position: absolute;
+        top: 0.5rem;
+        right: 1rem;
+        z-index: 2;
+    }
+    
+    #hero {
+        padding: 5rem 2rem;
+        padding-left: 10%;
+    }
+    
+    #hero h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+    
+    #hero p {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    section {
+        padding: 3rem 2rem;
+    }
+    
+    #details {
+        padding: 2rem;
+        height: 13cm;
+    }
+    
+    #details img {
+        width: 100%;
+    }
+    
+    footer#contacts {
+        padding: 2rem;
+        gap: 20px;
+    }
+    
+    footer#contacts .contact .details p {
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer#contacts .contact .numbers {
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    footer#contacts .social-media {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+}
