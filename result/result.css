@@ -1,0 +1,292 @@
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.header {
+    background: var(--bg-color);
+}
+
+.nav-links a {
+    color: var(--text-color);
+}
+
+
+/* main section  */
+
+section {
+    padding: 6rem 8rem;
+}
+
+section#leader-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#leader-board header{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+#leader-board header h1{
+    font-size: 6rem;
+    font-family: 'poppins';
+    font-weight: 900;
+}
+
+#leader-board header h2{
+    font-size: 6rem;
+    font-family: "Kalam", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--main-color);
+}
+
+.teams-box {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.first-team{
+    width: 20rem;
+    height: 40rem;
+    background-color: gold;
+}
+
+.second-team{
+    width: 20rem;
+    height: 30rem;
+    background-color: gold;
+}
+
+.third-team{
+    width: 20rem;
+    height: 20rem;
+    background-color: gold;
+}
+
+section#toppers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#toppers header{
+    width: 100%;
+    text-align: center;
+    line-height: 15px;
+}
+
+#toppers header h1{
+    font-size: 6rem;
+    font-family: 'poppins';
+    font-weight: 900;
+    z-index: 100;
+}
+
+#toppers header .bg-text{
+    font-size: 6rem;
+    font-family: 'poppins';
+    font-weight: 900;
+    letter-spacing: 10px;
+    color: #8432ff81;
+    z-index: 10;
+}
+
+.topper-box {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.vertical-line {
+    border-left: 2px solid #e4e4e4;  
+    height: 400px;               
+}
+
+.arts-topper{
+    height: 40rem;
+    width: 30rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border: 1px solid #949494;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7rem 3rem;
+    gap: 20px;
+    transition: all 0.3s;
+    background: url(/img/team1-bg.png);
+    background-size: cover;
+}
+
+.arts-topper h2{
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.arts-topper-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+}
+
+.arts-topper-name h2{
+    font-size: 4rem;
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+.arts-topper-name span{
+    font-size: 2rem;
+    font-family: 'poppins';
+    font-weight: 400;
+    background: var(--naigra);
+    padding: 5px 10px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+.arts-topper header{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.arts-topper header h2{
+    color: var(--naigra);
+    font-size: 3rem;
+    font-family: 'poppins';
+    font-weight: 900;
+    text-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.arts-topper-Points{
+    font-size: 8rem;
+    font-family: 'poppins';
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    line-height: 70px;
+    color: var(--naigra);
+}
+
+.arts-topper-Points span{
+    font-size: 3rem;
+    color: #000;
+}
+
+.arts-topper:hover{
+    transform: scale(1.05);
+}
+
+.sports-topper{
+    height: 40rem;
+    width: 30rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border: 1px solid #949494;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 7rem 3rem;
+    gap: 20px;
+    transition: all 0.3s;
+    background: url(/img/team3-bg.png);
+    background-size: cover;
+}
+
+.sports-topper h2{
+    text-align: center;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sports-topper-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+}
+
+.sports-topper-name h2{
+    font-size: 4rem;
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+.sports-topper-name span{
+    font-size: 2rem;
+    font-family: 'poppins';
+    font-weight: 400;
+    background: var(--tranquil);
+    padding: 5px 10px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+.sports-topper header{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.sports-topper header h2{
+    color: var(--tranquil);
+    font-size: 3rem;
+    font-family: 'poppins';
+    font-weight: 900;
+    text-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.sports-topper-Points{
+    font-size: 8rem;
+    font-family: 'poppins';
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    line-height: 70px;
+    color: var(--tranquil);
+}
+
+.sports-topper-Points span{
+    font-size: 3rem;
+    color: #000;
+}
+
+.sports-topper:hover{
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.animate-on-scroll {
+  opacity: 0; /* start with opacity 0 */
+  animation: fadeIn 0.6s ease-out forwards; /* apply animation */
+}
+  
