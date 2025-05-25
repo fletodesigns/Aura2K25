@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (navbar) {
         navbar.innerHTML = `
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
             <div class="logo-bar">
                 <img src="/img/logo.svg" alt="logo" class="logo">
@@ -10,13 +11,17 @@ document.addEventListener("DOMContentLoaded", function () {
             
             <nav>
                 <ul class="nav-links">
-                    <li class="active"><a href="/index.html"><i class='bx bx-home-alt-2'></i>Home</a></li>
-                    <li><a href="/gallery/"><i class='bx bx-images'></i>Gallery</a></li>
-                    <li><a href="/profile/"><i class='bx bx-user'></i>Profile</a></li>
-                    <li><a href="/result/"><i class='bx bx-minus-back'></i>Result</a></li>
-                    <li><a href="/downloads/index.html"><i class="fa-solid fa-download"></i>Download</a></li>
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/result">Result</a></li>
+                    <li><a href="/programmes">Programmes</a></li>
                 </ul>
             </nav>
+            <ul class="nav-links icon-nav">
+                <li><a href="/live"><i class='bx  bx-loader-dots'></i></a></li> 
+                <li><a href="/downloads"><i class="fa-solid fa-download"></i></a></li>
+                <li><a href="/gallery"><i class='bx bx-images'></i></a></li>
+                <li><a href="/profile"><i class='bx bx-user'></i></a></li>
+            </ul>
             <div class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>
