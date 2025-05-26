@@ -13,13 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 <ul class="nav-links">
                     <li class="active"><a href="/">Home</a></li>
                     <li><a href="/result">Result</a></li>
-                    <li><a href="/programmes">Programmes</a></li>
+                    <!-- <li><a href="/programmes">Programmes</a></li> -->
+                    <li><a href="/gallery">Gallery</a></li>
                 </ul>
             </nav>
             <ul class="nav-links icon-nav">
                 <li><a href="/live"><i class='bx  bx-loader-dots'></i></a></li> 
                 <li><a href="/downloads"><i class="fa-solid fa-download"></i></a></li>
-                <li><a href="/gallery"><i class='bx bx-images'></i></a></li>
                 <li><a href="/profile"><i class='bx bx-user'></i></a></li>
             </ul>
             <div class="burger">

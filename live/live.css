@@ -61,7 +61,7 @@ body, html {
   display: flex;
   align-items: center;
   gap: 30px; /* space between image and details */
-  background: rgba(255, 255, 255,); /* glassmorphism: semi-transparent white */
+  background: #ffffff; /* glassmorphism: semi-transparent white */
   padding: 15px 30px;
   border-radius: 20px;
   width: 90%;
@@ -69,7 +69,7 @@ body, html {
   box-shadow: 0 0 10px 10px #00000065; /* soft shadow */
   backdrop-filter: blur(5px); /* glass blur effect */
   -webkit-backdrop-filter: blur(8px);
-  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  border: 1px solid rgba(255, 255, 255, 0.18);
   height: 170px;
   margin-bottom: 20px; /* space between each rank-line */
 }
