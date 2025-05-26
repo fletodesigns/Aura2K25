@@ -305,7 +305,7 @@
   },
   "117": {
     "name": "Afnan MP",
-    "chesNo": 116,
+    "chesNo": 117,
     "team": "chroma",
     "stagePrograms": [
       {
@@ -322,6 +322,8 @@
       }
     ]
   },
+
+  
   "201": {
     "name": "Ashmil K",
     "chesNo": 201,
@@ -628,7 +630,7 @@
   },
   "217": {
     "name": "Jalal PT",
-    "chesNo": 216,
+    "chesNo": 217,
     "team": "ember",
     "stagePrograms": [
       {
@@ -956,7 +958,7 @@
   },
   "317": {
     "name": "Hasan TK",
-    "chesNo": 316,
+    "chesNo": 317,
     "team": "tranquil",
     "stagePrograms": [
       {
