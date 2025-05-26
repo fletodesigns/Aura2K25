@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --main-color: #f6ae1c;
+  --secondary-color: #acb4bf;
+  --text-color: #000;
+  --bg-color: #6c36ae;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-image: url(img/main-bg.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow: hidden;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 8%;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+  text-align: left;
+}
+
+.slide.active {
+  display: flex;
+}
+
+.programme {
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.rank-line {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* space between image and details */
+  background: rgba(255, 255, 255,); /* glassmorphism: semi-transparent white */
+  padding: 15px 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 70rem;
+  box-shadow: 0 0 10px 10px #00000065; /* soft shadow */
+  backdrop-filter: blur(5px); /* glass blur effect */
+  -webkit-backdrop-filter: blur(8px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  height: 170px;
+  margin-bottom: 20px; /* space between each rank-line */
+}
+
+.rank-line:last-child {
+  margin-bottom: 0; /* remove margin after last rank-line */
+}
+
+.pic {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--main-color);
+}
+
+.details {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 38px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.rank {
+  width: 90px;
+}
+
+/* LIVE badge container */
+.live-badge {
+  position: fixed; /* stays in top-right corner regardless of slide */
+  top: 20px;
+  right: 30px;
+  /* background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); */
+  border-radius: 12px;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--main-color);
+  /* box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.35); */
+  user-select: none;
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Red dot */
+.live-dot {
+  width: 14px;
+  height: 14px;
+  background-color: #ff2e2e;
+  border-radius: 50%;
+  box-shadow: 0 0 6px 2px #ff2e2e;
+  animation: blink 1.4s infinite;
+}
+
+/* Blinking animation */
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
