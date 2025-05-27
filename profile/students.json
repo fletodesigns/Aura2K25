@@ -20,6 +20,10 @@
         "name": "MUNAZARA",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "BP DEBATE",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -189,7 +193,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "BP DEBATE",
         "rank": "non",
         "score": 0
       }
@@ -232,7 +236,11 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "BP DEBATE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "DEBATE URD ",
         "rank": "non",
         "score": 0
       }
@@ -280,6 +288,10 @@
         "score": 0
       },   {
         "name": "MUNAZARA ",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "DEBATE URD ",
         "rank": "non",
         "score": 0
       }
@@ -454,6 +466,10 @@
         "name": "MUNAZARA",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "DEBATE URD ",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -568,7 +584,7 @@
     "team": "chroma",
     "stagePrograms": [
       {
-        "name": "",
+        "name": "BP DEBATE",
         "rank": "non",
         "score": 0
       },   {
@@ -697,7 +713,7 @@
     "team": "chroma",
     "stagePrograms": [
       {
-        "name": "",
+        "name": "DEBATE URD",
         "rank": "non",
         "score": 0
       },   {
@@ -746,7 +762,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "DEBATE URD",
         "rank": "non",
         "score": 0
       },   {
@@ -805,6 +821,14 @@
         "name": "MUNAZARA",
         "rank": "non",
         "score": 0
+      },  {
+        "name": "BP DEBATE",
+        "rank": "non",
+        "score": 0
+      },  {
+        "name": "DEBATE URD",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -848,6 +872,10 @@
         "name": "DEBATE MLM",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "DEBATE URD",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -888,7 +916,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "BP DEBATE",
         "rank": "non",
         "score": 0
       }
@@ -932,6 +960,10 @@
         "score": 0
       },   {
         "name": "DEBATE MLM",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "BP DEBATE",
         "rank": "non",
         "score": 0
       }
@@ -1020,6 +1052,10 @@
         "name": "MUNAZARA",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "BP DEBATE",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -1060,7 +1096,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "DEBATE URD",
         "rank": "non",
         "score": 0
       }
@@ -1533,7 +1569,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "DEBATE URD ",
         "rank": "non",
         "score": 0
       }
@@ -1627,7 +1663,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "DEBATE URD ",
         "rank": "non",
         "score": 0
       }
@@ -1662,7 +1698,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "BP DEBATE",
         "rank": "non",
         "score": 0
       },   {
@@ -1718,6 +1754,10 @@
         "score": 0
       },   {
         "name": "DEBATE MLM ",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "BP DEBATE ",
         "rank": "non",
         "score": 0
       }
@@ -1803,7 +1843,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "DEBATE URD ",
         "rank": "non",
         "score": 0
       }
@@ -1971,7 +2011,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "BP DEBATE",
         "rank": "non",
         "score": 0
       },   {
@@ -2057,7 +2097,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "DEBATE URD ",
         "rank": "non",
         "score": 0
       },   {
@@ -2211,7 +2251,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "BP DEBATE",
         "rank": "non",
         "score": 0
       }
