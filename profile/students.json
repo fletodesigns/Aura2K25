@@ -56,15 +56,15 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "SOOFI SANGEETHAM",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "MASH UP",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "ANTHYAKSHARI",
         "rank": "non",
         "score": 0
       }
@@ -107,7 +107,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "PRESS CONFERENCE",
         "rank": "non",
         "score": 0
       }
@@ -153,7 +153,20 @@
         "name": "DEBATE MLM ",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "PRESS CONFERENCE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "BP DEBATE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "GK & ISLAMIC QUIZ",
+        "rank": "non",
+        "score": 0
       }
+    
     ],
     "nonStagePrograms": [
       {
@@ -194,6 +207,10 @@
         "score": 0
       },   {
         "name": "BP DEBATE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "GK & ISLAMIC QUIZ",
         "rank": "non",
         "score": 0
       }
@@ -241,6 +258,14 @@
         "score": 0
       },   {
         "name": "DEBATE URD ",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "PRESS CONFERENCE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "ANTHYAKSHARI",
         "rank": "non",
         "score": 0
       }
@@ -292,6 +317,14 @@
         "score": 0
       },   {
         "name": "DEBATE URD ",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "SOOFI SANGEETHAM",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "MASH UP",
         "rank": "non",
         "score": 0
       }
@@ -369,11 +402,11 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "SOOFI SANGEETHAM",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "FATWA COUNCIL",
         "rank": "non",
         "score": 0
       },   {
@@ -416,7 +449,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "MASH UP",
         "rank": "non",
         "score": 0
       },   {
@@ -510,10 +543,15 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "PRESS CONFERENCE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "BP DEBATE",
         "rank": "non",
         "score": 0
       }
+  
     ],
     "nonStagePrograms": [
       {
@@ -549,11 +587,15 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "SOOFI SANGEETHAM",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "MASH UP",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "ANTHYAKSHARI",
         "rank": "non",
         "score": 0
       }
@@ -588,7 +630,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "FATWA COUNCIL",
         "rank": "non",
         "score": 0
       },   {
@@ -766,11 +808,15 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "SOOFI SANGEETHAM",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "MASH UP",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "ANTHYAKSHARI",
         "rank": "non",
         "score": 0
       }
@@ -829,6 +875,10 @@
         "name": "DEBATE URD",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "FATWA COUNCIL",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -874,6 +924,14 @@
         "score": 0
       },   {
         "name": "DEBATE URD",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "SOOFI SANGEETHAM",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "PRESS CONFERENCE",
         "rank": "non",
         "score": 0
       }
@@ -966,6 +1024,14 @@
         "name": "BP DEBATE",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "SOOFI SANGEETHAM",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "MASH UP",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -1006,7 +1072,11 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "ESSAY ENG",
+        "name": "ANTHYAKSHARI",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "GK & ISLAMIC QUIZ",
         "rank": "non",
         "score": 0
       }
@@ -1017,7 +1087,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "ESSAY ENG",
         "rank": "non",
         "score": 0
       },   {
@@ -1054,6 +1124,10 @@
         "score": 0
       },   {
         "name": "BP DEBATE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "PRESS CONFERENCE",
         "rank": "non",
         "score": 0
       }
@@ -1099,6 +1173,10 @@
         "name": "DEBATE URD",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "FATWA COUNCIL",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -1135,7 +1213,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "PRESS CONFERENCE",
         "rank": "non",
         "score": 0
       },   {
@@ -1221,11 +1299,15 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "SOOFI SANGEETHAM",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "MASH UP",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "ANTHYAKSHARI",
         "rank": "non",
         "score": 0
       }
@@ -1311,7 +1393,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "GK & ISLAMIC QUIZ",
         "rank": "non",
         "score": 0
       }
@@ -1342,7 +1424,7 @@
     "team": "ember",
     "stagePrograms": [
       {
-        "name": "",
+        "name": "MASH UP",
         "rank": "non",
         "score": 0
       },   {
@@ -1355,6 +1437,10 @@
         "score": 0
       },   {
         "name": "",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "FATWA COUNCIL",
         "rank": "non",
         "score": 0
       }
@@ -1436,7 +1522,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "PRESS CONFERENCE",
         "rank": "non",
         "score": 0
       },   {
@@ -1572,6 +1658,10 @@
         "name": "DEBATE URD ",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "PRESS CONFERENCE",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -1623,6 +1713,18 @@
         "name": "DEBATE MLM  ",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "PRESS CONFERENCE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "FATWA COUNCIL",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "GK & ISLAMIC QUIZ",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -1664,6 +1766,14 @@
         "score": 0
       },   {
         "name": "DEBATE URD ",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "MASH UP",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "FATWA COUNCIL",
         "rank": "non",
         "score": 0
       }
@@ -1760,6 +1870,14 @@
         "name": "BP DEBATE ",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "SOOFI SANGEETHAM",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "ANTHYAKSHARI",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -1796,11 +1914,15 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "PRESS CONFERENCE",
         "rank": "non",
         "score": 0
       },   {
         "name": "",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "FATWA COUNCIL",
         "rank": "non",
         "score": 0
       }
@@ -1846,6 +1968,10 @@
         "name": "DEBATE URD ",
         "rank": "non",
         "score": 0
+      },   {
+        "name": "FATWA COUNCIL",
+        "rank": "non",
+        "score": 0
       }
     ],
     "nonStagePrograms": [
@@ -1878,11 +2004,11 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "SOOFI SANGEETHAM",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "MASH UP",
         "rank": "non",
         "score": 0
       },   {
@@ -1925,11 +2051,15 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "FATWA COUNCIL",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "ANTHYAKSHARI",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "GK & ISLAMIC QUIZ",
         "rank": "non",
         "score": 0
       }
@@ -1977,6 +2107,10 @@
         "score": 0
       },   {
         "name": "DEBATE MLM  ",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "PRESS CONFERENCE",
         "rank": "non",
         "score": 0
       }
@@ -2054,15 +2188,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
-        "rank": "non",
-        "score": 0
-      },   {
-        "name": "",
-        "rank": "non",
-        "score": 0
-      },   {
-        "name": "",
+        "name": "ANTHYAKSHARI",
         "rank": "non",
         "score": 0
       }
@@ -2101,7 +2227,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "SOOFI SANGEETHAM",
         "rank": "non",
         "score": 0
       },   {
@@ -2144,7 +2270,7 @@
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "FATWA COUNCIL",
         "rank": "non",
         "score": 0
       },   {
@@ -2196,11 +2322,11 @@
     "team": "tranquil",
     "stagePrograms": [
       {
-        "name": "",
+        "name": "SOOFI SANGEETHAM",
         "rank": "non",
         "score": 0
       },   {
-        "name": "",
+        "name": "MASH UP",
         "rank": "non",
         "score": 0
       },   {
@@ -2252,6 +2378,14 @@
         "score": 0
       },   {
         "name": "BP DEBATE",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "MASH UP",
+        "rank": "non",
+        "score": 0
+      },   {
+        "name": "PRESS CONFERENCE",
         "rank": "non",
         "score": 0
       }
