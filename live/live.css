@@ -129,6 +129,17 @@ body, html {
   animation: blink 1.4s infinite;
 }
 
+#back-btn {
+  color: var(--text-color);
+  background: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+}
+
 /* Blinking animation */
 @keyframes blink {
   0%, 50%, 100% {
